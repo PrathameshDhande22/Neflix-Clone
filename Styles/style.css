@@ -284,8 +284,77 @@ body {
     top: 6px;
 }
 
-.contentrepeat label:active{
-    background-color:  rgb(167, 4, 12);
+.contentrepeat label:active {
+    background-color: rgb(167, 4, 12);
     width: 13.5%;
     height: 73.5%;
+}
+
+footer {
+    margin: 0px 20%;
+}
+
+.footer-content {
+    margin-top: 8%;
+    color: hsl(52, 19%, 38%);
+    font-weight: 600;
+}
+
+.footer-content .calllink {
+    text-decoration: none;
+    color: hsl(52, 19%, 38%);
+}
+
+.footer-content .calllink:hover,
+.flink:hover {
+    text-decoration: solid underline hsl(52, 19%, 38%) 1.3px;
+}
+
+.footer-content .links {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-size: 13px;
+    row-gap: 20%;
+}
+
+.flink>a {
+    color: hsl(52, 19%, 38%);
+    text-decoration: none;
+}
+
+.languagebtn {
+    width: 150px;
+    position: relative;
+    margin-top: 73px;
+    border: 1px solid hsl(52, 19%, 38%);
+    border-radius: 3px;
+    padding: 19px 11px;
+}
+
+.languagebtn .globeimg {
+    width: 23px;
+    display: inline-block;
+}
+
+.languagebtn .globeimg img {
+    width: 100%;
+}
+
+.languagebtn p {
+    padding: 28px 10px;
+    position: absolute;
+    top: -10px;
+    left: 36px;
+}
+
+.languagebtn .dropdown {
+    position: relative;
+    top: -5px;
+    right: -78px;
+}
+
+.made {
+    margin: 18px 0px;
+    font-size: 13px;
 }
