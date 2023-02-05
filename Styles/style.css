@@ -124,7 +124,8 @@ body {
     margin: 10px 0px;
 }
 
-.content p {
+.content p,
+.contentrepeat p {
     font-size: 19px;
     font-weight: 500;
     margin: 17px 0px;
@@ -160,7 +161,8 @@ body {
     height: 25.5%;
 }
 
-.content label::selection {
+.content label::selection,
+.contentrepeat label::selection {
     background-color: none;
 }
 
@@ -217,4 +219,73 @@ body {
     margin: 0px 52px;
     position: relative;
     z-index: 1;
+}
+
+.faq {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.faq h1 {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.faqitems {
+    margin: 40px auto;
+}
+
+.faqitems ul {
+    list-style: none;
+}
+
+.faqitems .faqquestion {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 20px 32px;
+    cursor: pointer;
+    font-size: 28px;
+    gap: 145px;
+    left: 22%;
+    position: relative;
+    width: 53%;
+}
+
+.faqcontent {
+    text-align: left;
+    display: none;
+}
+
+.contentrepeat input[type=text] {
+    color: rgb(140, 140, 164);
+    padding: 23px 10px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 36%;
+}
+
+.contentrepeat label {
+    background-color: rgb(244, 6, 18);
+    position: relative;
+    right: 0px;
+    width: 13%;
+    height: 73%;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+}
+
+.contentrepeat label:active{
+    background-color:  rgb(167, 4, 12);
+    width: 13.5%;
+    height: 73.5%;
 }
